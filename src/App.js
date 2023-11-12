@@ -1,12 +1,10 @@
-import logo from "./logo.svg";
-import "./App.css";
+import MyComponent from "./MyComponent";
 
 function App() {
   return (
-    <>
-      <h1>리액트 안녕!</h1>
-      <h2>잘 작동하니?</h2>
-    </>
+    <MyComponent name={"React"} favoriteNumber={1}>
+      리액트
+    </MyComponent>
   );
 }
 
